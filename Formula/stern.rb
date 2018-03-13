@@ -6,7 +6,7 @@ class Stern < Formula
   sha256 "87a6c71d02bcf803a49154b57b8c346ba3d67a3714373f2ddee5dc75566765aa"
   
   def install
-    mv Dir.glob("stern-*").first, "foo"
+    mv Dir.glob("stern-*").first, "stern"
 
     bin.install "stern"
   end
