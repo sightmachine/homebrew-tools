@@ -10,5 +10,5 @@ brew tap sightmachine/tools
 ## Usage
 
 ```
-brew tap sightmachine/tools/<formula>
+brew install sightmachine/tools/<formula>
 ```
